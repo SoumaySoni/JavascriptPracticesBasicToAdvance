@@ -1,6 +1,5 @@
 // Write a JavaScript function that checks if a given array contains any duplicate elements.
 
-
 // Using new Set() ...................
 var hasDuplicates = (array) => {
     const seen = new Set();

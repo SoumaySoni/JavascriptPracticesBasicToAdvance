@@ -1,0 +1,21 @@
+@keyframes spin {
+    form {
+        transform: rotate(45deg);
+    }
+
+    to {
+        transform: rotate(315deg);
+    }
+}
+
+#loader {
+    border: 16px solid rgb(179, 167, 167);
+    border-radius: 50%;
+    border-top: 16px solid blue;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    transform: rotate(45deg);
+    animation: spin 2s ease-out infinite;
+    margin-top: 100px;
+}
